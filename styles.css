@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #fcfffc;
+}
+
+.title span{
+    color: #ff7b00;
+}
+
+.list_menu a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #fcfffc;
+    padding-left: 30px ;
+    transition: all 0.2s ease;
+}
+
+
+.list_menu a:hover{
+    font-size: 26px;
+    transition: all 0.2s ease;
+    color: #8E8E8E;
+}
+
+.list_menu li{
+    margin: 25px 0;
+    color: #fcfffc;
+
+}
+.menu {
+    color: #E7E7E7;
+    width: 100%;
+    background: #2C3044;
+    margin-bottom: 30px;
+    padding: 10px;
+    height: 10%;
+}
+
+.logo {
+    position: absolute;
+}
+
+body {
+    height: 100vh;
+    background-color: #6B7785;
+    }
+
+.content {
+    color: #fcfffc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    margin: 40px;
+    word-wrap: break-word;
+    background: #2C3044;
+    hyphens: manual;
+    
+}
+
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    hyphens: manual;
+}
+h3{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+table{
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+
+}
+td {
+    min-width: 100px; 
+    height: 25px;
+    background-color: #bebebe;
+    color: #000000;
+    font-weight: normal;
+   }
+
+
+input{
+    text-align: center;
+    background: transparent;
+    height: calc(100%);
+    width: calc(100%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    
+}
+
+.profile-pic {
+    width: 600px; height: 600px;
+    background-image: url('barba.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.tabcontent p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
